@@ -1,5 +1,6 @@
 from django.shortcuts import render
-
+from django.views.generic import ListView
+#from .models import Question
 # Create your views here.
 
 def home(request):
@@ -7,3 +8,8 @@ def home(request):
 
 def about(request):
     return render(request,'about.html')
+
+#CRUD
+ 
+#class QuestionListView(ListView):
+    #model = Question
