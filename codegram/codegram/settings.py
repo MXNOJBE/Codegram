@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     
     #own
+    "question_base",
     "codegram",
     "crispy_forms",
     "users"
